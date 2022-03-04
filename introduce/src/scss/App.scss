@@ -1,0 +1,25 @@
+:root{
+    --logoment-margin-top : 1vw
+}
+.hd{
+    max-width : 1280px;
+    margin: 0 auto;
+    .logoh{
+        width:100%;
+        a{
+            img{vertical-align: top;}
+            .logoment{
+                width: 6.5vw;
+                margin-top: calc(var(--logoment-margin-top));
+                display: block;
+                margin-left: 1.2vw;
+            }
+            .logoname{
+                margin-top: calc(var(--logoment-margin-top) - 0.7vw);
+                width: 8vw;
+                display: block;
+            }
+    }
+        }
+        
+}
