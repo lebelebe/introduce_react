@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'nuriGothicR';
+    src: url(../font/nurigothicR.ttf) format("truetype");
+  }
+@font-face {
+    font-family: 'nuriGothicB';
+    src: url(../font/nurigothicB.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'nuriGothicL';
+    src: url(../font/nurigothicL.ttf) format("truetype");
+}
+
+.nuriGothicR{ font-family: 'nuriGothicR' !important;}
+.nuriGothicB{ font-family: 'nuriGothicB' !important;}
+.nuriGothicL{ font-family: 'nuriGothicL' !important;}

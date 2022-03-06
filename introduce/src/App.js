@@ -7,21 +7,21 @@ function App() {
   return (
     <nav>
       <header className={appStyle.hd+" container d-flex"}>
-        <h1 className={appStyle.logoh+" col-3"}>
+        <h1 className={appStyle.logoh}>
           <a href="/">
             <img src={logoment} className={appStyle.logoment}></img>
             <img src={logo} className={appStyle.logoname}></img>
           </a>
         </h1>
-        <ul className="d-flex col-5">
-          <li className="about">
-            <a href="/">나의소개</a>
+        <ul className={appStyle.d1ul+" d-flex col-5"}>
+          <li className="about col-4">
+            <a href="/" className="nuriGothicR">나의소개</a>
           </li>
-          <li className="portfolio">
-            <a href="/">포트폴리오</a>
+          <li className="portfolio col-4">
+            <a href="/" className="nuriGothicR">포트폴리오</a>
           </li>
-          <li className="contact">
-            <a href="/">면접제안</a>
+          <li className="contact col-4">
+            <a href="/" className="nuriGothicR">면접제안</a>
           </li>
         </ul>
       </header>
