@@ -29,6 +29,7 @@ table {border-collapse: separate;border-spacing: 0;}
 caption,th,td {text-align: left;font-weight: normal;}
 figure,article,header,footer,nav,hgroup,video,audio,aside,main {display: block;}
 body a{text-decoration: none; color: #000}
+body a:hover{color: #000;}
 
 /* mobile */
 /* input, textarea {-webkit-appearance: none;-webkit-border-radius: 0rem;border-radius: 0rem;} */
