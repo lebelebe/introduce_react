@@ -1,61 +1,117 @@
-:root{
-    --logoment-margin-top : 1vw
-}
+// 로고크기
 .hd{
     max-width : 1280px;
     margin: 0 auto;
     .logoh{
-        
+        width : 8vw;
+        padding: 0.4rem 0;
+        min-width: 44px;
         a{
-            img{vertical-align: top;}
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
             .logoment{
-                width: 6.5vw;
-                margin-top: calc(var(--logoment-margin-top));
-                display: block;
-                margin-left: 1.2vw;
-
+                width: 80%;
             }
             .logoname{
-                margin-top: calc(var(--logoment-margin-top) - 0.7vw);
-                width: 8vw;
-                display: block;
+                width: 100%;
             }
     }
         }
         
 }
-@media(max-width: 1280px){
-    .logoh{
-        margin-left: 3vw;
-    }
-}
-@media(max-width: 500px){
-    .logoment{
-        min-width: 8vw;
-    }
-    .logoname{
-        min-width: 10vw;
-    }
-}
+// 폰트
 .d1ul{
     li{
-        margin-top: 1.5vw;
+
         a{
-            font-size: 1.2vw;
+            font-size: 0.7rem;
         }
     }
 }
+@media(min-width: 450px){
+    .d1ul{
+        li{
+    
+            a{
+                font-size: 0.85rem;
+            }
+        }
+    }  
+}
+@media(min-width: 768px){
+    .d1ul{
+        li{
+    
+            a{
+                font-size: 1rem;
+            }
+        }
+    }  
+}
+@media(min-width: 1080px){
+    .d1ul{
+        li{
+    
+            a{
+                font-size: 1.25rem;
+            }
+        }
+    }  
+}
+@media(min-width: 1400px){
+    .d1ul{
+        li{
+    
+            a{
+                font-size: 1.7rem;
+            }
+        }
+    }  
+}
+// 버튼
 .utilButton{
-    font-size: 0.8vw;
+    font-size: 1rem;
+}
+@media(min-width: 768px){
+    .utilButton{
+        font-size: 1.3rem;
+    }
+}
+@media(min-width: 1400px){
+    .utilButton{
+        font-size: 1.7rem;
+    }
 }
 #utilMenu{
-    margin-top : 1.4vw;
-    margin-left: 2vw;
+    position: absolute;
+    bottom: -1050%;
+    left: 95%;
+    display: flex;
+    flex-direction: column-reverse;
     button{
         border: none;
         font-family: "nuriGothicR";
     }
 }
+.snsdiv{
+    font-size: 1rem
+}
+@media(min-width: 768px){
+    .snsdiv{
+        font-size: 1.3rem;
+    }
+}
+@media(min-width: 1400px){
+    .snsdiv{
+        font-size: 1.7rem;
+    }
+}
+// 밑줄
 #navi{
     border-bottom: 2px solid #222;
+    position: fixed;
+    left: 0;
+    top:0;
+    right:0;
 }

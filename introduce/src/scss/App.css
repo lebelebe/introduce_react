@@ -1,27 +1,37 @@
-:root { --logoment-margin-top: 1vw
-; }
-
 .hd { max-width: 1280px; margin: 0 auto; }
 
-.hd .logoh a img { vertical-align: top; }
+.hd .logoh { width: 8vw; padding: 0.4rem 0; min-width: 44px; }
 
-.hd .logoh a .logoment { width: 6.5vw; margin-top: calc(var(--logoment-margin-top)); display: block; margin-left: 1.2vw; }
+.hd .logoh a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
 
-.hd .logoh a .logoname { margin-top: calc(var(--logoment-margin-top) - 0.7vw); width: 8vw; display: block; }
+.hd .logoh a .logoment { width: 80%; }
 
-@media (max-width: 1280px) { .logoh { margin-left: 3vw; } }
+.hd .logoh a .logoname { width: 100%; }
 
-@media (max-width: 500px) { .logoment { min-width: 8vw; }
-  .logoname { min-width: 10vw; } }
+.d1ul li a { font-size: 0.7rem; }
 
-.d1ul li { margin-top: 1.5vw; }
+@media (min-width: 450px) { .d1ul li a { font-size: 0.85rem; } }
 
-.d1ul li a { font-size: 1.2vw; }
+@media (min-width: 768px) { .d1ul li a { font-size: 1rem; } }
 
-.utilButton { font-size: 0.8vw; }
+@media (min-width: 1080px) { .d1ul li a { font-size: 1.25rem; } }
 
-#utilMenu { margin-top: 1.4vw; margin-left: 2vw; }
+@media (min-width: 1400px) { .d1ul li a { font-size: 1.7rem; } }
+
+.utilButton { font-size: 1rem; }
+
+@media (min-width: 768px) { .utilButton { font-size: 1.3rem; } }
+
+@media (min-width: 1400px) { .utilButton { font-size: 1.7rem; } }
+
+#utilMenu { position: absolute; bottom: -1050%; left: 95%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
 
 #utilMenu button { border: none; font-family: "nuriGothicR"; }
 
-#navi { border-bottom: 2px solid #222; }
+.snsdiv { font-size: 1rem; }
+
+@media (min-width: 768px) { .snsdiv { font-size: 1.3rem; } }
+
+@media (min-width: 1400px) { .snsdiv { font-size: 1.7rem; } }
+
+#navi { border-bottom: 2px solid #222; position: fixed; left: 0; top: 0; right: 0; }
