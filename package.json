@@ -4,7 +4,7 @@
   "description": "리액트 서버",
   "main": "server.js",
   "scripts": {
-    "myreact": "cd layout && npm start",
+    "myreact": "cd introduce && npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run myreact\" "
