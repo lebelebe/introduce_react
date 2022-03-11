@@ -37,7 +37,7 @@ function App() {
         </ul>
         <div id={appStyle.utilMenu}>
           <button onClick={ (e) => { snsFL(!snsstate) } } className={appStyle.utilButton} type="button"><FontAwesomeIcon icon={faShareNodes} /></button>
-          { snsstate && <Snsdiv className={appStyle.snsdiv}></Snsdiv> }
+          { snsstate && <Snsdiv></Snsdiv> }
         </div>
       </header>
     </nav>

@@ -95,7 +95,9 @@
     }
 }
 .snsdiv{
-    font-size: 1rem
+    font-size: 1rem;
+    animation-duration: 1s;
+    animation-name: snsslide;
 }
 @media(min-width: 768px){
     .snsdiv{
@@ -107,6 +109,19 @@
         font-size: 1.7rem;
     }
 }
+@keyframes snsslide{
+    from{
+        height: 0;
+        overflow: hidden;
+    }
+    50%{
+        overflow: hidden;
+    }
+    to{
+        height: 5.1rem;
+    }
+}
+
 // 밑줄
 #navi{
     border-bottom: 2px solid #222;
